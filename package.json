@@ -1,7 +1,7 @@
 {
-  "name": "Сибсайт Сервис",
+  "name": "sibsite",
   "version": "0.0.1",
-  "description": "Разработка сайтов для Ващего бизнеса",
+  "description": "Website development for business purposes",
   "repository": {
     "type": "git",
     "url": "sibsite-service.ru"
