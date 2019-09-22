@@ -5,7 +5,7 @@ export default function Nav({ onMenuToggle = () => {} }) {
   return (
     <nav id="menu">
       <div className="inner">
-        <h2>Menu</h2>
+        <h2>О нас</h2>
         <ul className="links">
           <li>
             <Link
@@ -14,7 +14,7 @@ export default function Nav({ onMenuToggle = () => {} }) {
               }}
               to="/"
             >
-              Home
+              Главная Страница
             </Link>
           </li>
           <li>
@@ -22,9 +22,9 @@ export default function Nav({ onMenuToggle = () => {} }) {
               onClick={e => {
                 onMenuToggle();
               }}
-              to="/Generic"
+              to="/Prices"
             >
-              Generic Page
+              Наши цены
             </Link>
           </li>
           <li>
@@ -34,7 +34,7 @@ export default function Nav({ onMenuToggle = () => {} }) {
               }}
               to="/Elements"
             >
-              Elements
+              Контакт
             </Link>
           </li>
         </ul>

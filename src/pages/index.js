@@ -9,6 +9,7 @@ import pic4 from '../assets/images/pic04.jpg';
 import pic5 from '../assets/images/pic05.jpg';
 import pic6 from '../assets/images/pic06.jpg';
 import pic7 from '../assets/images/pic07.jpg';
+import pic8 from '../assets/images/logo_white.png';
 
 import config from '../../config';
 const IndexPage = () => (
@@ -16,7 +17,7 @@ const IndexPage = () => (
     <section id="banner">
       <div className="inner">
         <div className="logo">
-          <span className="icon fa-diamond"></span>
+        <img src={pic8} alt="" width="520px" height="auto"/>
         </div>
         <h2>{config.heading}</h2>
         <p>{config.subHeading}</p>
@@ -26,7 +27,7 @@ const IndexPage = () => (
     <section id="wrapper">
       <section id="one" className="wrapper spotlight style1">
         <div className="inner">
-          <a href="/#" className="image">
+          <a href="/Prices" className="image">
             <img src={pic1} alt="" />
           </a>
           <div className="content">
@@ -38,7 +39,7 @@ const IndexPage = () => (
               dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
               cursus.
             </p>
-            <a href="/#" className="special">
+            <a href="/Prices" className="special">
               Learn more
             </a>
           </div>
@@ -47,7 +48,7 @@ const IndexPage = () => (
 
       <section id="two" className="wrapper alt spotlight style2">
         <div className="inner">
-          <a href="/#" className="image">
+          <a href="/Prices" className="image">
             <img src={pic2} alt="" />
           </a>
           <div className="content">
@@ -59,7 +60,7 @@ const IndexPage = () => (
               dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
               cursus.
             </p>
-            <a href="/#" className="special">
+            <a href="/Prices" className="special">
               Learn more
             </a>
           </div>
@@ -68,7 +69,7 @@ const IndexPage = () => (
 
       <section id="three" className="wrapper spotlight style3">
         <div className="inner">
-          <a href="/#" className="image">
+          <a href="/Prices" className="image">
             <img src={pic3} alt="" />
           </a>
           <div className="content">
@@ -98,7 +99,7 @@ const IndexPage = () => (
           </p>
           <section className="features">
             <article>
-              <a href="/#" className="image">
+              <a href="/Prices" className="image">
                 <img src={pic4} alt="" />
               </a>
               <h3 className="major">Sed feugiat lorem</h3>
