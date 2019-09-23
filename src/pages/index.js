@@ -34,14 +34,10 @@ const IndexPage = () => (
           <div className="content">
             <h2 className="major">Создание сайтов-визиток</h2>
             <p>
-              Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
-              turpis ante, nullam sit amet turpis non, sollicitudin posuere
-              urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
-              dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
-              cursus.
+              Чтобы   
             </p>
             <a href="/Prices" className="special">
-              Learn more
+            Заказать разработку сайта
             </a>
           </div>
         </div>
@@ -53,12 +49,14 @@ const IndexPage = () => (
             <img src={gif2} alt="" />
           </a>
           <div className="content">
-            <h2 className="major">Поисковая оптимизация для Yandex | Google</h2>
+            <h2 className="major">Поисковая оптимизация для Yandex | Google - SEO</h2>
             <p>
-            Поисковая оптимизация может улучшить ваш сайт и сэкономить время при поиске Вашего сайта клиентами. Мы поможем сделать Ваш сайт видимым в поисковых сетях Yandex и Google, таким образом Вы сможете быстрее привлечь новых клиентов с помощью правильно настроенной поисковой оптимизации.
+            Поисковая оптимизация может улучшить Ваш сайт и сэкономить время при поиске Вашего сайта клиентами. 
+            Мы поможем сделать Ваш сайт видимым в поисковых сетях Yandex и Google, таким образом, с помощью правильно настроенной поисковой оптимизации, 
+            Вы сможете быстрее привлечь новых клиентов.
             </p>
             <a href="/Prices" className="special">
-              Подробнее
+            Заказать услугу
             </a>
           </div>
         </div>
@@ -70,16 +68,13 @@ const IndexPage = () => (
             <img src={gif3} alt="" />
           </a>
           <div className="content">
-            <h2 className="major">Nullam dignissim</h2>
+            <h2 className="major">Разработка интернет-магазинов</h2>
             <p>
-              Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
-              turpis ante, nullam sit amet turpis non, sollicitudin posuere
-              urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
-              dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
-              cursus.
+              Хотите продавать Ваши услуги или товары через интернет? 
+              Мы поможем Вам в создании Вашего интернет-магазина под ключ. Мы берем на себя все, от дизайна до хостинга.
             </p>
             <a href="/#" className="special">
-              Learn more
+            Заказать разработку интернет-магазина
             </a>
           </div>
         </div>
