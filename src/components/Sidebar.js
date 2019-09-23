@@ -19,7 +19,7 @@ export default function SideBar({ fullMenu }) {
             }}
             className="menuToggle"
           >
-            <span>О нас</span>
+            <span>Подробнее</span>
           </a>
         </nav>
       </header>

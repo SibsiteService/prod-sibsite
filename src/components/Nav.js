@@ -5,7 +5,7 @@ export default function Nav({ onMenuToggle = () => {} }) {
   return (
     <nav id="menu">
       <div className="inner">
-        <h2>О нас</h2>
+        <h2>Подробнее</h2>
         <ul className="links">
           <li>
             <Link
@@ -32,7 +32,7 @@ export default function Nav({ onMenuToggle = () => {} }) {
               onClick={e => {
                 onMenuToggle();
               }}
-              to="/Elements"
+              to="/Contact"
             >
               Контакт
             </Link>

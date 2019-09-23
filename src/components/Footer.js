@@ -22,11 +22,11 @@ export default function Footer() {
             <fieldset id="selects">
               <label for="service">Какой услугой Вы хотите воспользоваться?</label>
                 <select name="service" id="service" required="">
-                  <option value="Choose" selected="" disabled="">Выберите Услугу</option>
-                  <option value="1">Создание Сайта-Визитки</option>
-                  <option value="2">Поисковая оптимизация для Yandex | Google</option>
-                  <option value="3">Разработка интернет-магазина</option>
-                  <option value="4">Другое</option>
+                  <option value="Choose" selected="" disabled=""></option>
+                  <option value="Сайт-визитка">Создание Сайта-Визитки</option>
+                  <option value="SEO">Поисковая оптимизация для Yandex | Google</option>
+                  <option value="Интернет-магазин">Разработка интернет-магазина</option>
+                  <option value="Другое">Другое</option>
                 </select>
             </fieldset>
             </div>
@@ -42,8 +42,7 @@ export default function Footer() {
           </ul>
         </form>
         <ul className="contact">
-          <li className="fa-home">{config.address}</li>
-
+          <li className="fa-whatsapp">{config.whatsapp}</li>
           <li className="fa-phone">{config.phone}</li>
 
           {config.socialLinks.map(social => {
@@ -56,9 +55,9 @@ export default function Footer() {
           })}
         </ul>
         <ul className="copyright">
-          <li>&copy; Solid State. All rights reserved.</li>
+          <li>&copy; ООО "Сибсайт Сервис". Все права защищены.</li>
           <li>
-            Design: <a href="http://html5up.net">HTML5 UP</a>
+            Дизайн: <a href="http://sibsite-service.ru">Сибсайт Сервис</a>
           </li>
         </ul>
       </div>
