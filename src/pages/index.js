@@ -2,6 +2,9 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
+import gif1 from '../assets/images/gif01.gif';
+import gif2 from '../assets/images/gif02.gif';
+import gif3 from '../assets/images/gif03.gif';
 import pic1 from '../assets/images/pic01.jpg';
 import pic2 from '../assets/images/pic02.jpg';
 import pic3 from '../assets/images/pic03.jpg';
@@ -16,10 +19,8 @@ const IndexPage = () => (
   <Layout>
     <section id="banner">
       <div className="inner">
-        <div className="logo">
-        <img src={pic8} alt="" width="520px" height="auto"/>
-        </div>
-        <h2>{config.heading}</h2>
+           <img src={pic8} alt="" width="50%" height="auto"/>
+         <h2>{config.heading}</h2>
         <p>{config.subHeading}</p>
       </div>
     </section>
@@ -28,10 +29,10 @@ const IndexPage = () => (
       <section id="one" className="wrapper spotlight style1">
         <div className="inner">
           <a href="/Prices" className="image">
-            <img src={pic1} alt="" />
+            <img src={gif1} alt="" />
           </a>
           <div className="content">
-            <h2 className="major">Magna arcu feugiat</h2>
+            <h2 className="major">Создание сайтов-визиток</h2>
             <p>
               Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
               turpis ante, nullam sit amet turpis non, sollicitudin posuere
@@ -49,19 +50,15 @@ const IndexPage = () => (
       <section id="two" className="wrapper alt spotlight style2">
         <div className="inner">
           <a href="/Prices" className="image">
-            <img src={pic2} alt="" />
+            <img src={gif2} alt="" />
           </a>
           <div className="content">
-            <h2 className="major">Tempus adipiscing</h2>
+            <h2 className="major">Поисковая оптимизация для Yandex | Google</h2>
             <p>
-              Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
-              turpis ante, nullam sit amet turpis non, sollicitudin posuere
-              urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
-              dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
-              cursus.
+            Поисковая оптимизация может улучшить ваш сайт и сэкономить время при поиске Вашего сайта клиентами. Мы поможем сделать Ваш сайт видимым в поисковых сетях Yandex и Google, таким образом Вы сможете быстрее привлечь новых клиентов с помощью правильно настроенной поисковой оптимизации.
             </p>
             <a href="/Prices" className="special">
-              Learn more
+              Подробнее
             </a>
           </div>
         </div>
@@ -70,7 +67,7 @@ const IndexPage = () => (
       <section id="three" className="wrapper spotlight style3">
         <div className="inner">
           <a href="/Prices" className="image">
-            <img src={pic3} alt="" />
+            <img src={gif3} alt="" />
           </a>
           <div className="content">
             <h2 className="major">Nullam dignissim</h2>
