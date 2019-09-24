@@ -1,5 +1,8 @@
 import React from 'react';
 import config from '../../config';
+import doc1 from '../assets/docs/doc1.pdf';
+import doc2 from '../assets/docs/doc2.pdf';
+import doc3 from '../assets/docs/doc3.pdf';
 
 export default function Footer() {
   return (
@@ -20,7 +23,11 @@ export default function Footer() {
               <input type="email" name="email" id="email" />
             </div>
             <div className="field">
-            <fieldset id="select-service">
+              <label htmlFor="tel">Номер Телефона</label>
+              <input type="tel" name="tel" id="tel" />
+            </div>
+            <div className="field">
+            <fieldset id="select">
               <label for="service">Какой услугой Вы хотите воспользоваться?</label>
                 <select name="service" id="service" required="">
                   <option value="-" selected="-" disabled="-">-</option>
@@ -70,9 +77,9 @@ export default function Footer() {
             Дизайн: <a href="https://sibsite-service.ru">Сибсайт Сервис</a>
           </li>
           <li>&copy; ООО "Сибсайт Сервис". Все права защищены.</li>
-          <li><a href="https://drive.google.com/open?id=1_LfBzsTPTm-PwGOWsXOVGAa3eXhdMwNf" target="_blank">Свидетельство о постановке на учёт</a></li>
-          <li><a href="https://drive.google.com/open?id=1lUcv9iZQ4j4p8wYIJ32Grv05xApcQx8S" target="_blank">Свидетельство о регистрации</a></li> 
-          <li><a href="https://drive.google.com/open?id=1lZefAeoXUGaNrtTIsC_UXyDiPbyeGC4n" target="_blank">Устав</a></li> 
+          <li><a href={doc1} target="_blank" alt="Свидетельство о постановке на учёт" target="_blank">Свидетельство о постановке на учёт</a></li>
+          <li><a href={doc2} target="_blank" alt="Свидетельство о регистрации" target="_blank">Свидетельство о регистрации</a></li> 
+          <li><a href={doc3} target="_blank" alt="Устав" target="_blank">Устав</a></li> 
         </ul>
       </div>
     </section>

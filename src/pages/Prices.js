@@ -22,6 +22,7 @@ const IndexPage = () => <Layout fullMenu>
 	
 					<section>
 						<h3 className="major">Цены</h3>
+            <h4>Сайт-Визитка</h4>
 						<div className="table-wrapper">
 							<table>
 								<thead>
