@@ -46,11 +46,11 @@ class Layout extends Component {
             <Helmet
               title={data.site.siteMetadata.title}
               meta={[
-                { name: 'description', content: 'Solid State' },
-                { name: 'keywords', content: 'site, web' },
+                { name: 'description', content: 'Сибсайт Сервис - Веб-студия, занимающаяся разработкой сайтов и интернет-магазинов для бизнеса, г. Чита, Забайкальский край.' },
+                { name: 'keywords', content: 'чита ру, сайт, интернет-магазин, разработка, под заказ, под ключ, веб дизайн, веб сайт, заказать сайт, создание интернет магазина, создание сайтов, создать сайт, лэндинг, сайт визитка, сайт для бизнеса, хостинг сайта' },
               ]}
             >
-              <html lang="en" />
+              <html lang="ru" />
             </Helmet>
             <div
               className={isPreloaded ? ' main-body  is-preload' : ' main-body'}
