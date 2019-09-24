@@ -1,13 +1,13 @@
 module.exports = {
   siteTitle: 'Сибсайт Сервис | Разработка сайтов для Вашего бизнеса', // <title>
   manifestName: 'Сибсайт Сервис - веб-студия по разработке сайтов и нтернет-магазинов',
-  manifestShortName: 'Сибсайт Сервис', // max 12 characters
-  manifestStartUrl: '/index',
+  manifestShortName: 'Сибсайт', // max 12 characters
+  manifestStartUrl: '/#',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
-  pathPrefix: `/gatsby-starter-solidstate/`, // This path is subpath of your hosting https://domain/portfolio
+  pathPrefix: `/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Веб-студия',
   subHeading: 'Разработка сайтов для Вашего бизнеса',
   // social
@@ -20,7 +20,7 @@ module.exports = {
     {
       icon: 'fa-envelope-o',
       name: 'Email',
-      url: 'sibsite.development@gmail.com',
+      url: 'sibsite.service@gmail.com',
     },
   ],
   phone: 'Телефон: +7-996-515-05-21',
