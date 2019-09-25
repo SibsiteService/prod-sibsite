@@ -21,10 +21,10 @@ module.exports = {
         icon: config.manifestIcon, // This path is relative to the root of the site.
       },
     },
-    {
+    { 
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "UA-148714105-1",
+        trackingId: "UA-148714105-2",
         // Defines where to place the tracking script - `true` in the head and `false` in the body
         head: false,
         // Setting this parameter is optional
