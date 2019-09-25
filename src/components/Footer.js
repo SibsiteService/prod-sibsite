@@ -19,14 +19,6 @@ export default function Footer() {
               <input type="text" name="name" id="name" />
             </div>
             <div className="field">
-              <label htmlFor="email">Адрес электронной почты</label>
-              <input type="email" name="email" id="email" />
-            </div>
-            <div className="field">
-              <label htmlFor="tel">Номер Телефона</label>
-              <input type="tel" name="tel" id="tel" />
-            </div>
-            <div className="field">
             <fieldset id="select">
               <label for="service">Какой услугой Вы хотите воспользоваться?</label>
                 <select name="service" id="service" required="">
@@ -47,6 +39,14 @@ export default function Footer() {
                   <option value="More 20000 RUB">более 20 000 ₽</option>
                 </select>
             </fieldset>
+            </div>
+            <div className="field">
+              <label htmlFor="email">Адрес электронной почты</label>
+              <input type="email" name="email" id="email" />
+            </div>
+            <div className="field">
+              <label htmlFor="tel">Номер Телефона</label>
+              <input type="tel" name="tel" id="tel" />
             </div>
             <div className="field">
               <label htmlFor="message">Описание</label>
