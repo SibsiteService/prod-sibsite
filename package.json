@@ -4,7 +4,7 @@
   "description": "Website development for business purposes",
   "repository": {
     "type": "git",
-    "url": "sibsite-service.ru"
+    "url": "https://www.sibsite-service.com"
   },
   "author": {
     "name": "Denis Kuznetsov",
@@ -46,7 +46,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": ""
+    "url": "https://www.sibsite-service.com"
   },
-  "homepage": "www.sibsite-service.ru"
+  "homepage": "https://www.sibsite-service.com"
 }
