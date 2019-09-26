@@ -6,6 +6,8 @@ import gif1 from '../assets/images/gif01.gif';
 import gif2 from '../assets/images/gif02.gif';
 import gif3 from '../assets/images/gif03.gif';
 import pic8 from '../assets/images/logo_white.png';
+import ga from '../assets/images/interface-3614766_960_720(1).png';
+import domain from '../assets/images/web-design-1327873_960_720.png';
 
 import config from '../../config';
 const IndexPage = () => (
@@ -69,6 +71,41 @@ const IndexPage = () => (
             </p>
             <a href="/Contact" className="special">
             Заказать услугу
+            </a>
+          </div>
+        </div>
+      </section>
+      <section id="four" className="wrapper alt spotlight style2">
+        <div className="inner">
+          <a href="/Prices" className="image">
+          <img src={domain} alt="" />
+          </a>
+          <div className="content">
+            <h2 className="major">Подбор уникального доменного имени | Хостинг Вашего сайта</h2>
+            <p>
+            Доменное имя, <code>напр.: <a href="https://www.sibsite-service.com">www.sibsite-service.com</a></code> - это Ваш уникальный идентификатор в мире IT. 
+            Мы поможем подобрать и приобрести доменное имя, которое будет легко запоминаться Вашим клиентам и станет неотъемлемой частью Вашего бизнеса.
+            А чтобы Ваш сайт заработал, мы разместим его на надежном облачном хостинге.
+            </p>
+            <a href="/Prices" className="special">
+            Узнать подробнее
+            </a>
+          </div>
+        </div>
+      </section>
+      <section id="five" className="wrapper spotlight style3">
+        <div className="inner">
+          <a href="/Prices/" className="image">
+          <img src={ga} alt="google analytics logo white" />
+          </a>
+          <div className="content">
+            <h2 className="major">Настройка Google Analytics на Вашем сайте</h2>
+            <p>
+            Google Analytics - это система Веб-Аналитики, которая позволяет Вам собирать и анализировать данные о пользователях Вашего сайта.
+            Узнайте больше о посетителях Вашего сайта: как долго они находятся у Вас, сколько активных пользователей находится сейчас на Вашем сайте, и многое другое.
+            </p>
+            <a href="/Prices" className="special">
+            Узнать подробнее
             </a>
           </div>
         </div>

@@ -60,6 +60,7 @@ export default function Footer() {
           </ul>
         </form>
         <ul className="contact">
+          
           <li className="fa-whatsapp">{config.whatsapp}</li>
           <li className="fa-mobile">{config.phone}</li>
 
