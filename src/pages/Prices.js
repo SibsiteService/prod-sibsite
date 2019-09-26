@@ -1,13 +1,7 @@
 import React from 'react';
-
+import aws from '../assets/images/aws_logo.png';
 import Layout from '../components/Layout';
 
-import pic1 from '../assets/images/pic01.jpg';
-import pic2 from '../assets/images/pic02.jpg';
-import pic5 from '../assets/images/pic05.jpg';
-import pic6 from '../assets/images/pic06.jpg';
-import pic7 from '../assets/images/pic07.jpg';
-import pic8 from '../assets/images/pic08.jpg';
 const IndexPage = () => <Layout fullMenu>
 <section id="wrapper">
 		<header>
@@ -19,9 +13,9 @@ const IndexPage = () => <Layout fullMenu>
 
 			<div className="wrapper">
 				<div className="inner">
-	
-					<section>
-						<h3 className="major">Цены</h3>
+			
+			<section id="сайт-визитка">
+			<h3 className="major">Цены</h3>
             <h4>Сайт-Визитка</h4>
 						<div className="table-wrapper">
 							<table>
@@ -41,7 +35,7 @@ const IndexPage = () => <Layout fullMenu>
                       <li><span>Написание текстов, подбор изображений</span></li>
                       <li><span>Хостинг сайта и регистрация доменного имени</span></li>
                     </td>
-										<td>9 900 ₽ + 300 ₽/месяц <sub>хостинг</sub></td>
+										<td>9 900 ₽<br></br>+ 500 ₽/месяц за хостинг</td>
 									</tr>
 									<tr>
 										<td>Сайт за 17 900 ₽</td>
@@ -52,7 +46,7 @@ const IndexPage = () => <Layout fullMenu>
                       <li><span>Хостинг сайта и регистрация доменного имени</span></li>
                       <li><span>Дизайн логотипа в подарок</span></li>
                     </td>
-										<td>17 900 ₽ + 400 ₽/месяц <sub>хостинг</sub></td>
+										<td>17 900 ₽<br></br>+ 500 ₽/месяц за хостинг</td>
 									</tr>
                   <tr>
 										<td>Сайт от 25 900 ₽</td>
@@ -67,7 +61,7 @@ const IndexPage = () => <Layout fullMenu>
                       <li><span>Дизайн логотипа в подарок</span></li>
                       <li><span>Неограниченное количество страниц</span></li>
                     </td>
-										<td>от 25 900 ₽ + 500 ₽/месяц <sub>хостинг</sub></td>
+										<td>от 25 900 &#8381;<br></br>+ 500 ₽/месяц за хостинг</td>
 									</tr>
 								</tbody>
 								
@@ -76,8 +70,40 @@ const IndexPage = () => <Layout fullMenu>
 		
 					</section>
 
-					
-
+					<section id="hosting">
+					<h3 className="major">Цены</h3>
+            		<h4>Хостинг</h4>
+						<div className="table-wrapper">
+							<table>
+								<thead>
+									<tr>
+										<th>Название</th>
+										<th>Описание</th>
+										<th>Цена</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Хостинг за 600 ₽/месяц</td>
+										<td>
+                      					<li><span>Хостинг на облачном сервисе &nbsp;
+												<a href="https://aws.amazon.com" rel="noopener noreferrer" target="_blank"> 
+											  		<img src={aws} alt="aws logo" width="24" height="12.6"/> 
+												</a>
+											</span>
+										</li>
+                      					<li><span>Полная поддержка при развертывании Вашего сайта на хостинг</span></li>
+                      					<li><span>Настройка саб-доменов</span></li>
+                      					<li><span>Доступность облачного сервиса 24/7 365 дней в году</span></li>
+                    					</td>
+										<td>600 ₽/месяц</td>
+									</tr>
+								</tbody>
+								
+							</table>
+						</div>
+		
+				</section>
 				</div>
 			</div>
 
