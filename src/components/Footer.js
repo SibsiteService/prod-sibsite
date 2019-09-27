@@ -76,7 +76,7 @@ export default function Footer() {
         </ul>
         <ul className="copyright">
           <li>
-            Дизайн: <a href="https://sibsite-service.ru">Сибсайт Сервис</a>
+            Дизайн: <a href="https://sibsite-service.com">Сибсайт Сервис</a>
           </li>
           <li>&copy; ООО "Сибсайт Сервис". Все права защищены.</li>
           <li><a href={doc1} target="_blank" alt="Свидетельство о постановке на учёт" target="_blank">Свидетельство о постановке на учёт</a></li>
