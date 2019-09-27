@@ -22,7 +22,9 @@ module.exports = {
       name: 'Email',
       url: 'sibsite.service@gmail.com',
     },
+   
   ],
   phone: 'Телефон: +7-996-515-05-21',
   whatsapp: 'Whatsapp | Viber: +7-996-515-05-21',
+  address: 'Забайкальский край, г. Чита',
 };

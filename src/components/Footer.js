@@ -60,10 +60,7 @@ export default function Footer() {
           </ul>
         </form>
         <ul className="contact">
-          
-          <li className="fa-whatsapp">{config.whatsapp}</li>
-          <li className="fa-mobile">{config.phone}</li>
-
+                   
           {config.socialLinks.map(social => {
             const { icon, url } = social;
             return (
@@ -72,6 +69,10 @@ export default function Footer() {
               </li>
             );
           })}
+          
+          <li className="fa-whatsapp">{config.whatsapp}</li>
+          <li className="fa-mobile">{config.phone}</li>
+          <li className="fa-home">{config.address}</li>
         </ul>
         <ul className="copyright">
           <li>
