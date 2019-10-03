@@ -26,6 +26,7 @@ export default function Footer() {
                   <option value="Сайт-визитка">Создание Сайта-Визитки</option>
                   <option value="Интернет-магазин">Разработка Интернет-Магазина</option>
                   <option value="SEO">Поисковая оптимизация для Yandex | Google</option>
+                  <option value="Hosting">Хостинг Сайта</option>
                 </select>
             </fieldset>
             </div>
@@ -34,9 +35,9 @@ export default function Footer() {
               <label for="service">Какой у Вас бюджет?</label>
                 <select name="service" id="service" required="">
                   <option value="-" selected="-" disabled="-">-</option>
-                  <option value="10000 RUB">до 10 000 ₽</option>
-                  <option value="20000 RUB">до 20 000 ₽</option>
-                  <option value="More 20000 RUB">более 20 000 ₽</option>
+                  <option value="Бюджет: до 10 т.р.">до 10 000 ₽</option>
+                  <option value="Бюджет: до 20 т.р.">до 20 000 ₽</option>
+                  <option value="Бюджет: больше 20 т.р.">более 20 000 ₽</option>
                 </select>
             </fieldset>
             </div>
