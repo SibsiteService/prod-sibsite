@@ -2,9 +2,9 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-import gif1 from '../assets/images/gif01.gif';
-import gif2 from '../assets/images/gif02.gif';
-import gif3 from '../assets/images/gif03.gif';
+import gif1 from '../assets/images/pic02.jpg';
+import gif2 from '../assets/images/pic03.jpg';
+import gif3 from '../assets/images/ga-logo.png';
 import pic8 from '../assets/images/logo_white.png';
 import ga from '../assets/images/interface-3614766_960_720(1).png';
 import domain from '../assets/images/web-design-1327873_960_720.png';
@@ -14,9 +14,14 @@ const IndexPage = () => (
   <Layout>
     <section id="banner">
       <div className="inner">
-           <img src={pic8} alt="" width="50%" height="auto"/>
+           <img src={pic8} alt="Сибсайт Сервис" width="50%" height="auto"/>
          <h2>{config.heading}</h2>
-        <p>{config.subHeading}</p>
+        <p>{config.subHeading}
+        <br></br>
+        <br></br>
+        <br></br>
+        <a className="actions" href="/Contact" className="button">&nbsp;Оставить заявку&nbsp;</a>
+        </p>
       </div>
     </section>
 
@@ -24,7 +29,7 @@ const IndexPage = () => (
       <section id="one" className="wrapper spotlight style1">
         <div className="inner">
           <a href="/Contact" className="image">
-            <img src={gif2} alt="" />
+            <img src={gif1} alt="" />
           </a>
           <div className="content">
             <h2 className="major">Создание сайтов-визиток</h2>
@@ -42,7 +47,7 @@ const IndexPage = () => (
       <section id="two" className="wrapper alt spotlight style2">
         <div className="inner">
           <a href="/Contact" className="image">
-          <img src={gif3} alt="" />
+          <img src={ga} alt="" />
           </a>
           <div className="content">
             <h2 className="major">Разработка интернет-магазинов</h2>
@@ -60,7 +65,7 @@ const IndexPage = () => (
       <section id="three" className="wrapper spotlight style3">
         <div className="inner">
           <a href="/Contact" className="image">
-          <img src={gif1} alt="" />
+          <img src={gif2} alt="" />
           </a>
           <div className="content">
             <h2 className="major">Поисковая оптимизация для Yandex | Google - SEO</h2>
@@ -96,7 +101,7 @@ const IndexPage = () => (
       <section id="five" className="wrapper spotlight style3">
         <div className="inner">
           <a href="/Prices/" className="image">
-          <img src={ga} alt="google analytics logo white" />
+          <img src={gif3} alt="google analytics logo white" />
           </a>
           <div className="content">
             <h2 className="major">Настройка Google Analytics на Вашем сайте</h2>
