@@ -2,7 +2,7 @@ module.exports = {
   siteTitle: 'Сибсайт Сервис | Разработка сайтов для Вашего бизнеса', // <title>
   manifestName: 'Сибсайт Сервис - веб-студия по разработке сайтов и нтернет-магазинов',
   manifestShortName: 'Сибсайт', // max 12 characters
-  manifestStartUrl: 'https://sibsite-service.com',
+  manifestStartUrl: 'https://www.sibsite-service.com',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
