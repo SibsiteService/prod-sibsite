@@ -12,6 +12,7 @@ import domain from '../assets/images/web-design-1327873_960_720.png';
 import config from '../../config';
 const IndexPage = () => (
   <Layout>
+    
     <section id="banner">
       <div className="inner">
            <img src={pic8} alt="Сибсайт Сервис" width="50%" height="auto"/>

@@ -47,10 +47,12 @@ class Layout extends Component {
               title={data.site.siteMetadata.title}
               meta={[
                 { name: 'description', content: 'Сибсайт Сервис - Веб-студия, занимающаяся разработкой сайтов и интернет-магазинов для бизнеса, г. Чита, Забайкальский край.' },
+                { name: 'yandex-verification', content:'42d2c6d546c40bcc'},
                 { name: 'keywords', content: 'сибсайт сервис, sibsite-service.com, sibsite service, чита ру, сайт, интернет-магазин, разработка, под заказ, под ключ, веб дизайн, веб сайт, заказать сайт, создание интернет магазина, создание сайтов, создать сайт, лэндинг, сайт визитка, сайт для бизнеса, хостинг сайта' },
               ]}
             >
               <html lang="ru" />
+              
             </Helmet>
             <div
               className={isPreloaded ? ' main-body  is-preload' : ' main-body'}
