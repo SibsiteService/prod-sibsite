@@ -71,8 +71,9 @@ export default function Footer() {
             );
           })}
           
-          <li className="fa-whatsapp">{config.whatsapp}</li>
-          <li className="fa-mobile">{config.phone}</li>
+          <li className="fa-mobile"><a href="tel:+79965150521">Viber: {config.viber}</a></li>
+          <li className="fa-whatsapp"><a href="https://wa.me/79149078408?text=Я%20бы%20хотел%20заказать%20сайт">Whatsapp: {config.whatsapp}</a></li>
+          <li className="fa-mobile"><a href="tel:+79965150521">Телефон: {config.phone}</a></li>
           <li className="fa-home">{config.address}</li>
         </ul>
         <ul className="copyright">
