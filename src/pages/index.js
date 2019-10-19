@@ -2,8 +2,8 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-import gif1 from '../assets/images/pic02.jpg';
-import gif2 from '../assets/images/pic03.jpg';
+import gif1 from '../assets/images/pic02.png';
+import gif2 from '../assets/images/pic03.png';
 import gif3 from '../assets/images/ga-logo.png';
 import pic8 from '../assets/images/logo_white.png';
 import ga from '../assets/images/interface-3614766_960_720(1).png';
