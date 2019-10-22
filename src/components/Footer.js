@@ -20,9 +20,9 @@ export default function Footer() {
             </div>
             <div className="field">
             <fieldset id="select">
-              <label for="service">Какой услугой Вы хотите воспользоваться?</label>
+              <label htmlFor="service">Какой услугой Вы хотите воспользоваться?</label>
                 <select name="service" id="service" required="">
-                  <option value="-" selected="-" disabled="-">-</option>
+                  <option value="">-</option>
                   <option value="Сайт-визитка">Создание Сайта-Визитки</option>
                   <option value="Интернет-магазин">Разработка Интернет-Магазина</option>
                   <option value="SEO">Поисковая оптимизация для Yandex | Google</option>
@@ -32,9 +32,9 @@ export default function Footer() {
             </div>
             <div className="field">
             <fieldset id="select-budget">
-              <label for="service">Какой у Вас бюджет?</label>
+              <label htmlFor="service">Какой у Вас бюджет?</label>
                 <select name="service" id="service" required="">
-                  <option value="-" selected="-" disabled="-">-</option>
+                  <option value="">-</option>
                   <option value="Бюджет: до 10 т.р.">до 10 000 ₽</option>
                   <option value="Бюджет: до 20 т.р.">до 20 000 ₽</option>
                   <option value="Бюджет: больше 20 т.р.">более 20 000 ₽</option>
