@@ -71,9 +71,9 @@ export default function Footer() {
             );
           })}
           
-          <li className="fa-mobile"><a href={"tel:"+config.viber.replace('-','')}>Viber: {config.viber}</a></li>
-          <li className="fa-whatsapp"><a href={"https://wa.me/"+config.whatsapp.replace('-','').replace('+','')+"?text=Я%20бы%20хотел%20заказать%20сайт"}>Whatsapp: {config.whatsapp}</a></li>
-          <li className="fa-mobile"><a href={"tel:"+config.phone.replace('-','')}>Телефон: {config.phone}</a></li>
+          <li className="fa-mobile"><a href={"tel:"+config.viber}>Viber: {config.viber}</a></li>
+          <li className="fa-whatsapp"><a href={"https://wa.me/"+config.whatsapp+"?text=Я%20бы%20хотел%20заказать%20сайт"}>Whatsapp: {config.whatsapp}</a></li>
+          <li className="fa-mobile"><a href={"tel:"+config.phone}>Телефон: {config.phone}</a></li>
           <li className="fa-home">{config.address}</li>
         </ul>
         <ul className="copyright">
