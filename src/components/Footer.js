@@ -15,7 +15,7 @@ export default function Footer() {
         <form action="https://formcarry.com/s/16cIN7iss6i" method="post">
           <div className="fields">
             <div className="field">
-              <label htmlFor="name">Ваше Имя</label>
+              <label htmlFor="name" required="">Ваше Имя</label>
               <input type="text" name="name" id="name" />
             </div>
             <div className="field">
