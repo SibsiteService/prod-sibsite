@@ -5,7 +5,7 @@ import Layout from '../components/Layout';
 import gif1 from '../assets/images/pic02.png';
 import gif2 from '../assets/images/pic03.png';
 import gif3 from '../assets/images/ga-logo.png';
-import pic8 from '../assets/images/logo_white.png';
+import logo from '../assets/images/logo_white.png';
 import ga from '../assets/images/interface-3614766_960_720(1).png';
 import domain from '../assets/images/web-design-1327873_960_720.png';
 
@@ -15,7 +15,7 @@ const IndexPage = () => (
     
     <section id="banner">
       <div className="inner">
-           <img src={pic8} alt="Сибсайт Сервис" width="50%" height="auto"/>
+           <img src={logo} alt="Сибсайт Сервис" width="50%" height="auto"/>
          <h2>{config.heading}</h2>
         <p>{config.subHeading}
         <br></br>

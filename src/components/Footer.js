@@ -77,13 +77,11 @@ export default function Footer() {
           <li className="fa-home">{config.address}</li>
         </ul>
         <ul className="copyright">
-          <li>
-            Дизайн: <a href="https://sibsite-service.com">Сибсайт Сервис</a>
-          </li>
+          
           <li>&copy; ООО "Сибсайт Сервис". Все права защищены.</li>
-          <li><a href={doc1} target="_blank" alt="Свидетельство о постановке на учёт" target="_blank">Свидетельство о постановке на учёт</a></li>
-          <li><a href={doc2} target="_blank" alt="Свидетельство о регистрации" target="_blank">Свидетельство о регистрации</a></li> 
-          <li><a href={doc3} target="_blank" alt="Устав" target="_blank">Устав</a></li> 
+          <li><a href={doc2} target="_blank" alt="Свидетельство о регистрации" target="_blank">Свидетельство о регистрации</a></li>
+          <li><a href="https://www.iubenda.com/privacy-policy/74289103" target="_blank" alt="Политика конфиденциальности" target="_blank">Политика конфиденциальности</a></li> 
+         
         </ul>
       </div>
     </section>
