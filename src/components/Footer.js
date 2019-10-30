@@ -28,7 +28,7 @@ export default function Footer() {
                   <option value="Сайт-визитка">Создание Сайта-Визитки</option>
                   <option value="Интернет-магазин">Разработка Интернет-Магазина</option>
                   <option value="SEO">Поисковая оптимизация для Yandex | Google</option>
-                  <option value="Hosting">Аренда Сайта</option>
+                  <option value="Hosting">Хостинг вашего сайта в облаке</option>
                 </select>
             </fieldset>
             </div>
