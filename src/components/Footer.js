@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <section id="footer">
       <div className="inner">
-        <h2 className="major">Свяжитесь с нами</h2>
+        <h2 className="major" color="#000000">Свяжитесь с нами</h2>
         <p>
           Чтобы оставить заявку, кратко сфомируйте свою идею и воспользуйтесь формой снизу. 
           <br />
@@ -24,7 +24,7 @@ export default function Footer() {
               <label htmlFor="service">Какой услугой Вы хотите воспользоваться?</label>
                 <select name="service" id="service" required="">
                   <option value="">-</option>
-                  <option value="Сайт-визитка">Взять сайт в аренду</option>
+                  <option value="Сайт в аренду">Взять сайт в аренду</option>
                   <option value="Сайт-визитка">Создание Сайта-Визитки</option>
                   <option value="Интернет-магазин">Разработка Интернет-Магазина</option>
                   <option value="SEO">Поисковая оптимизация для Yandex | Google</option>
