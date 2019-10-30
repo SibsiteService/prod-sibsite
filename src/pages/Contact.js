@@ -4,8 +4,10 @@ import Layout from '../components/Layout';
 
 const IndexPage = () => <Layout fullMenu>
 <section id="wrapper">
-		
-	</section>
+<br />
+<br />		
+<br />
+</section>
 
 </Layout>;
 

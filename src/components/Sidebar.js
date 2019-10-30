@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Nav from './Nav';
 import { Link } from 'gatsby';
+import config from '../../config';
 export default function SideBar({ fullMenu }) {
   const [headerOpen, toggleHeader] = useState(false);
   return (
@@ -8,6 +9,10 @@ export default function SideBar({ fullMenu }) {
       <header id="header" className={`${fullMenu ? '' : 'alt'}`}>
         <h1>
           <Link to="/">Сибсайт Сервис</Link>
+          &nbsp;|&nbsp;
+          <Link to="/Contact">Контакты</Link>
+          &nbsp;|&nbsp;
+          <Link to="/Prices">Цены</Link>
         </h1>
 
         <nav>

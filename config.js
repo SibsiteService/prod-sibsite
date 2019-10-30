@@ -9,7 +9,7 @@ module.exports = {
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Веб-студия',
-  subHeading: 'Разработка сайтов | Продвижение сайтов в поиске | Аренда сайтов',
+  subHeading: 'Разработка сайтов | Продвижение сайтов в поиске | Сайт в аренду',
   // social
   socialLinks: [
     {

@@ -11,7 +11,7 @@ import domain from '../assets/images/web-design-1327873_960_720.png';
 
 import config from '../../config';
 const IndexPage = () => (
-  <Layout>
+  <Layout fullMenu>
     
     <section id="banner">
       <div className="inner">
@@ -29,7 +29,7 @@ const IndexPage = () => (
     <section id="wrapper">
       <section id="one" className="wrapper spotlight style1">
         <div className="inner">
-          <a href="/Contact" className="image">
+          <a href="/Prices" className="image">
             <img src={gif1} alt="" />
           </a>
           <div className="content">
@@ -38,8 +38,8 @@ const IndexPage = () => (
               Сайт-визитка - это одностраничный сайт, который является визитной карточкой Вашего бизнеса. 
               Такой сайт открывает для Вас новых клиентов, большинство из которых проводит все больше и больше времени он-лайн.   
             </p>
-            <a href="/Contact" className="special">
-            Заказать разработку сайта
+            <a href="/Prices" className="special">
+            Узнать подробнее
             </a>
           </div>
         </div>
@@ -47,7 +47,7 @@ const IndexPage = () => (
 
       <section id="two" className="wrapper alt spotlight style2">
         <div className="inner">
-          <a href="/Contact" className="image">
+          <a href="/Prices" className="image">
           <img src={ga} alt="" />
           </a>
           <div className="content">
@@ -56,8 +56,8 @@ const IndexPage = () => (
               Хотите продавать Ваши услуги или товары через интернет? 
               Мы поможем Вам в создании Вашего интернет-магазина под ключ. Мы берем на себя все, от дизайна до хостинга.
             </p>
-            <a href="/Contact" className="special">
-            Заказать разработку интернет-магазина
+            <a href="/Prices" className="special">
+            Узнать подробнее
             </a>
           </div>
         </div>
@@ -65,18 +65,18 @@ const IndexPage = () => (
 
       <section id="three" className="wrapper spotlight style3">
         <div className="inner">
-          <a href="/Contact" className="image">
+          <a href="/Prices" className="image">
           <img src={gif2} alt="" />
           </a>
           <div className="content">
-            <h2 className="major">Поисковая оптимизация для Yandex | Google - SEO</h2>
+            <h2 className="major">Поисковая оптимизация для Яндекс | Google - SEO</h2>
             <p>
             Поисковая оптимизация может улучшить Ваш сайт и сэкономить время при поиске Вашего сайта клиентами. 
             Мы поможем сделать Ваш сайт видимым в поисковых сетях Yandex и Google, таким образом, с помощью правильно настроенной поисковой оптимизации, 
             Вы сможете быстрее привлечь новых клиентов.
             </p>
-            <a href="/Contact" className="special">
-            Заказать услугу
+            <a href="/Prices" className="special">
+            Узнать подробнее
             </a>
           </div>
         </div>

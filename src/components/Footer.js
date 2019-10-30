@@ -1,8 +1,7 @@
 import React from 'react';
 import config from '../../config';
-import doc1 from '../assets/docs/doc1.pdf';
 import doc2 from '../assets/docs/doc2.pdf';
-import doc3 from '../assets/docs/doc3.pdf';
+
 
 export default function Footer() {
   return (
@@ -10,7 +9,9 @@ export default function Footer() {
       <div className="inner">
         <h2 className="major">Свяжитесь с нами</h2>
         <p>
-          Чтобы оставить заявку, кратко сфомируйте свою идею и воспользуйтесь формой снизу. Мы свяжемся с Вами в ближайшее время.
+          Чтобы оставить заявку, кратко сфомируйте свою идею и воспользуйтесь формой снизу. 
+          <br />
+          Мы свяжемся с Вами в ближайшее время.
         </p>
         <form action="https://formcarry.com/s/16cIN7iss6i" method="post">
           <div className="fields">
@@ -23,10 +24,11 @@ export default function Footer() {
               <label htmlFor="service">Какой услугой Вы хотите воспользоваться?</label>
                 <select name="service" id="service" required="">
                   <option value="">-</option>
+                  <option value="Сайт-визитка">Взять сайт в аренду</option>
                   <option value="Сайт-визитка">Создание Сайта-Визитки</option>
                   <option value="Интернет-магазин">Разработка Интернет-Магазина</option>
                   <option value="SEO">Поисковая оптимизация для Yandex | Google</option>
-                  <option value="Hosting">Хостинг Сайта</option>
+                  <option value="Hosting">Аренда Сайта</option>
                 </select>
             </fieldset>
             </div>
@@ -35,6 +37,7 @@ export default function Footer() {
               <label htmlFor="service">Какой у Вас бюджет?</label>
                 <select name="service" id="service" required="">
                   <option value="">-</option>
+                  <option value="Бюджет: 5 т.р."> 5 000 ₽</option>
                   <option value="Бюджет: до 10 т.р.">до 10 000 ₽</option>
                   <option value="Бюджет: до 20 т.р.">до 20 000 ₽</option>
                   <option value="Бюджет: больше 20 т.р.">более 20 000 ₽</option>
