@@ -77,6 +77,12 @@
   }
 
   @include breakpoint('<=medium') {
+    background-image: linear-gradient(
+        to top,
+        transparentize(_palette(bg), 0.2),
+        transparentize(_palette(bg), 0.2)
+      ),
+      url('../images/background-white-03.jpg');
     margin-top: (_size(wrapper-edges, medium) * -1);
     padding-top: _size(wrapper-edges, medium);
 
@@ -102,6 +108,12 @@
   }
 
   @include breakpoint('<=small') {
+    background-image: linear-gradient(
+        to top,
+        transparentize(_palette(bg), 0.2),
+        transparentize(_palette(bg), 0.2)
+      ),
+      url('../images/background-white-03.jpg');
     margin-top: (_size(wrapper-edges, small) * -1);
     padding-top: _size(wrapper-edges, small);
 
