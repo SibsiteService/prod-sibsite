@@ -23,10 +23,12 @@
     "gatsby-plugin-sitemap": "^2.2.14",
     "node-sass": "^4.12.0",
     "react": "^16.8.6",
+    "react-cookie-consent": "^2.5.0",
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.1",
     "react-images": "^0.5.19",
     "react-scrollspy": "^3.4.0",
+    "react-typical": "^0.1.2",
     "smoothscroll-polyfill": "^0.4.4"
   },
   "scripts": {

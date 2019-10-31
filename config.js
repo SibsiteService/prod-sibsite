@@ -9,7 +9,7 @@ module.exports = {
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Веб-студия',
-  subHeading: 'Разработка сайтов | Продвижение сайтов в поиске | Сайт в аренду',
+  subHeading: 'Разработка сайтов | Продвижение сайтов в поиске | Сайты в аренду',
   // social
   socialLinks: [
     {
@@ -27,5 +27,5 @@ module.exports = {
   phone: '+7-996-515-05-21',
   whatsapp: '+7-914-907-84-08',
   viber: '+7-996-515-05-21',
-  address: 'Забайкальский край, г. Чита',
+  address: 'Работаем по всей России',
 };

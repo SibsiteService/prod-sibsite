@@ -1,10 +1,13 @@
 import React from 'react';
 import config from '../../config';
 import doc2 from '../assets/docs/doc2.pdf';
+import CookieConsent, { Cookies } from "react-cookie-consent";
+
 
 
 export default function Footer() {
   return (
+    
     <section id="footer">
       <div className="inner">
         <h2 className="major" color="#000000">Свяжитесь с нами</h2>
@@ -37,10 +40,10 @@ export default function Footer() {
               <label htmlFor="service">Какой у Вас бюджет?</label>
                 <select name="service" id="service" required="">
                   <option value="">-</option>
-                  <option value="Бюджет: 5 т.р."> 5 000 ₽</option>
-                  <option value="Бюджет: до 10 т.р.">до 10 000 ₽</option>
-                  <option value="Бюджет: до 20 т.р.">до 20 000 ₽</option>
-                  <option value="Бюджет: больше 20 т.р.">более 20 000 ₽</option>
+                  <option value="Бюджет: 5 т.р."> 5 000 р.</option>
+                  <option value="Бюджет: до 10 т.р.">до 10 000 р.</option>
+                  <option value="Бюджет: до 20 т.р.">до 20 000 р.</option>
+                  <option value="Бюджет: больше 20 т.р.">более 20 000 р.</option>
                 </select>
             </fieldset>
             </div>
@@ -87,6 +90,17 @@ export default function Footer() {
          
         </ul>
       </div>
+      <CookieConsent 
+      location="bottom"
+      buttonText="Хорошо"
+      cookieName="Куки для sibsite-service.com"
+      style={{ background: "#2B373B" }}
+      buttonStyle={{ background: "#4c5c96", fontSize: "13px", padding: "0px 20px" }}
+      expires={150}
+      >
+      Мы используем куки! &nbsp;<a href="https://www.iubenda.com/privacy-policy/74289103" target="_blank" alt="Свидетельство о регистрации" target="_blank">Подробнее.</a>
+      </CookieConsent>
     </section>
+    
   );
 }
