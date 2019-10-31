@@ -56,17 +56,16 @@
   }
 
   @include breakpoint('<=large') {
-    > header {
-      @include padding(5em, 0, (4em, 0, _size(wrapper-edges, large) * 0.5, 0));
-
-      background-color: _palette(bg);
-
-      background-image: linear-gradient(
+    background-image: linear-gradient(
           to top,
           transparentize(_palette(bg), 0.2),
           transparentize(_palette(bg), 0.2)
         ),
-        url('../images/background-white-02.jpg');
+        url('../images/background-white-04.jpg');
+    > header {
+      @include padding(5em, 0, (4em, 0, _size(wrapper-edges, large) * 0.5, 0));
+
+      background-color: _palette(bg);
 
       background-size: auto, cover;
 
@@ -77,20 +76,19 @@
   }
 
   @include breakpoint('<=medium') {
+    background-image: linear-gradient(
+          to top,
+          transparentize(_palette(bg), 0.2),
+          transparentize(_palette(bg), 0.2)
+        ),
+        url('../images/background-white-04.jpg');
     > header {
       @include padding(
         7em,
         3em,
         (4em, 0, _size(wrapper-edges, medium) * 0.5, 0)
       );
-
-      background-image: linear-gradient(
-        to top,
-        transparentize(_palette(bg), 0.2),
-        transparentize(_palette(bg), 0.2)
-      ),
-      url('../images/background-white-03.jpg');
-
+      
       background-size: auto, cover;
 
       background-position: center, 0% 0%;
